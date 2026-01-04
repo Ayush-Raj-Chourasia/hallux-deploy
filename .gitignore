@@ -1,0 +1,35 @@
+.env
+.21ST_DEV_PROMPT.txt
+
+# Frontend
+frontend/node_modules
+frontend/.next
+frontend/.env.local
+
+# Backend
+backend/node_modules
+backend/__pycache__
+backend/.env
+backend/*.pyc
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,202 @@
+PROMPT FOR 21ST.DEV MAGIC CHAT - HALLUX CITATION VERIFICATION PLATFORM
+
+Create a modern, professional AI citation verification platform called "Hallux" with these sections:
+
+1. HERO SECTION:
+   - Dark gradient background (navy #0F172A to purple #7C3AED)
+   - Headline (large, bold): "Stop AI Hallucinations Before They Spread"
+   - Subheadline: "Real-time citation verification powered by multi-layer AI analysis"
+   - Large text input area (textarea) with placeholder: "Paste your text with citations here... (e.g., papers, articles, blog posts)"
+   - Prominent "Verify Now" button (electric blue #0066FF, glowing effect on hover)
+   - Small badge with fire emoji: "🔥 500+ citations verified today"
+   - Small icons showing: ⚡ Fast • 🔒 Secure • 🆓 Free
+
+2. FEATURES GRID (4 columns, responsive):
+   Each feature card should have:
+   - Icon (use lucide-react icons)
+   - Title (bold)
+   - Short description (2 lines max)
+   - Glassmorphism effect (semi-transparent background with blur)
+   
+   Feature 1: ⚡ Real-time Verification
+   "Get instant results as you type or paste content. No waiting, no delays."
+   
+   Feature 2: 🔍 Multi-layer Analysis  
+   "5-layer verification system from URL validation to AI scoring and semantic analysis."
+   
+   Feature 3: 🔌 Browser Extension
+   "Verify citations anywhere on the web with one click. Works on ArXiv, Medium, blogs."
+   
+   Feature 4: 📊 Citation Health Dashboard
+   "Track verification history and citation trust scores over time."
+
+3. HOW IT WORKS (3 steps with timeline/progress indicator):
+   Step 1: "📝 Paste Text or Enable Extension"
+   "Copy any text with citations or activate our browser extension"
+   
+   Step 2: "🤖 AI Analyzes Citations in Parallel"
+   "Our 5-layer system checks URLs, metadata, content, and AI confidence"
+   
+   Step 3: "✅ Get Trust Scores + Recommendations"
+   "See verification status, confidence scores, and suggested fixes"
+   
+   (Use animated cards with large step numbers, connected with dotted lines)
+
+4. RESULTS DEMO SECTION (mockup of our verification results):
+   Title: "See Hallux in Action"
+   
+   Show a sample results dashboard with:
+   - List of 4 citations in cards, each showing:
+     * Citation text (truncated)
+     * Status badge (colored):
+       ✅ "Verified" (green #10B981)
+       ⚠️ "Suspicious" (yellow #F59E0B)
+       ❌ "Fake Citation" (red #EF4444)
+       ℹ️ "URL Broken" (blue #3B82F6)
+     * Confidence progress bar (0-100%)
+     * "View Details" expandable button
+   
+   When expanded, show:
+   - Verification layers with checkmarks/X marks:
+     ✅ URL Status: Valid
+     ✅ DOI Found: Crossref
+     ⚠️ Semantic Match: 67%
+     ❌ Author Verification: Not found
+     ✅ Publication Date: Valid
+   - AI reasoning box: "This citation is suspicious because the author name doesn't match any records in Google Scholar or DBLP..."
+   - "Suggested Alternatives" section with 2 similar papers
+
+5. COMPARISON TABLE (Hallux vs Competitors):
+   Create a sleek feature comparison table with these rows:
+   - Real-time verification
+   - Browser extension support
+   - Multi-layer analysis (5 layers)
+   - Citation graph analysis
+   - AI confidence scoring
+   - Batch processing
+   - Free tier available
+   - Open source
+   
+   Columns: 
+   - "Feature" (left aligned)
+   - "Hallux" (all green checkmarks ✅)
+   - "Competitor A" (mix of ✅ and ❌)
+   - "Competitor B" (mostly ❌)
+   
+   Make "Hallux" column highlighted/accented
+
+6. STATS SECTION (social proof):
+   3 large stat cards side-by-side:
+   - "10,000+ Citations Verified" with chart icon
+   - "98% Accuracy Rate" with target icon
+   - "< 3s Average Speed" with zap icon
+   
+   Use large numbers with gradient text
+
+7. TECH STACK SECTION:
+   Title: "Built with Modern Technology"
+   
+   Display tech stack badges in a grid (2 rows):
+   Row 1: FastAPI • React • TailwindCSS • TypeScript
+   Row 2: OpenAI GPT-4 • PostgreSQL • Redis • Vercel
+   
+   Each badge should have:
+   - Brand colors
+   - Icon/logo
+   - Hover effect (slight lift)
+
+8. USE CASES SECTION:
+   Title: "Who Can Benefit from Hallux?"
+   
+   3 cards with icons:
+   - 🎓 Researchers & Students
+     "Verify academic papers, theses, and research articles"
+   
+   - 📰 Journalists & Fact-checkers
+     "Ensure source credibility and prevent misinformation"
+   
+   - 🏢 Content Creators & Editors
+     "Maintain high-quality, trustworthy content"
+
+9. CALL TO ACTION (prominent):
+   - Section title: "Try Hallux Free Today"
+   - Subtitle: "No credit card required • No installation needed"
+   - Two large CTA buttons side-by-side:
+     * "Start Verifying" (primary, electric blue, with arrow icon)
+     * "View on GitHub" (secondary, outlined, with GitHub icon)
+   - Small text below: "⭐ Open source • Built for ByteQuest Hackathon"
+
+10. FOOTER:
+    - Left side:
+      * Logo "HALLUX"
+      * Tagline: "Making AI trustworthy, one citation at a time."
+    
+    - Center:
+      * Links: Features | How It Works | Documentation | FAQ
+    
+    - Right side:
+      * Project info: "Built for ByteQuest Hackathon 2026"
+      * Team: "Team Hallux • RBU"
+      * Social links: GitHub, Demo Video, Discord
+    
+    - Bottom bar:
+      * "© 2026 Hallux • MIT License • Privacy Policy"
+
+DESIGN REQUIREMENTS:
+✅ Modern glassmorphism style with blur effects on cards
+✅ Dark theme (navy/slate background #0F172A)
+✅ Electric blue (#0066FF) as primary color
+✅ Smooth scroll animations (fade-in, slide-up)
+✅ Fully responsive design (mobile, tablet, desktop)
+✅ Use Inter font family (or similar clean sans-serif)
+✅ Include subtle gradient overlays on sections
+✅ Hover effects on all interactive elements (lift, glow, scale)
+✅ Use shadcn/ui components for consistency
+✅ Status badges with rounded corners and icons
+✅ Make it look production-ready, not a prototype
+✅ Add loading skeleton for demo results section
+✅ Include smooth transitions between sections
+✅ Use lucide-react icons throughout
+✅ Add subtle particle effects or animated gradients in hero
+✅ Include a sticky navbar (transparent until scroll)
+
+NAVBAR (sticky, appears on scroll):
+- Logo "HALLUX" (left)
+- Nav links: Features | How It Works | Pricing | GitHub
+- CTA button: "Try Free" (right, electric blue)
+
+ADDITIONAL NICE-TO-HAVES:
+- Animated gradient background in hero
+- Typing animation effect for headline
+- Number counter animation for stats
+- Smooth parallax scrolling effects
+- Dark mode toggle (optional, already dark)
+- Code syntax highlighting in examples
+- Tooltip explanations on hover
+- Progress bar at top showing scroll progress
+
+COLOR PALETTE:
+- Background: #0F172A (slate 900)
+- Card Background: #1E293B (slate 800) with opacity
+- Primary: #0066FF (electric blue)
+- Success: #10B981 (emerald 500)
+- Warning: #F59E0B (amber 500)
+- Error: #EF4444 (rose 500)
+- Info: #3B82F6 (blue 500)
+- Purple Accent: #8B5CF6 (purple 500)
+- Text: #F8FAFC (slate 50)
+- Text Muted: #94A3B8 (slate 400)
+
+TYPOGRAPHY:
+- Headings: Inter Bold, large sizes (3xl-6xl)
+- Subheadings: Inter Semibold (xl-2xl)
+- Body: Inter Regular (base-lg)
+- Code/Tech: JetBrains Mono or Fira Code
+
+SPACING:
+- Section padding: py-20 (5rem)
+- Card padding: p-6 (1.5rem)
+- Gap between elements: gap-6 (1.5rem)
+- Max width: max-w-7xl (1280px)
+
+The final result should look like a professional SaaS product worth $50K+, emphasizing trust, accuracy, and cutting-edge technology. Make it visually stunning and conversion-focused!

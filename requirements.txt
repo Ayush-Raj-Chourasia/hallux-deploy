@@ -1,0 +1,29 @@
+# Lightweight requirements for Azure deployment
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+
+# External APIs (lightweight)
+httpx==0.26.0
+beautifulsoup4==4.12.3
+lxml==5.1.0
+crossref-commons==0.0.7
+arxiv==2.1.0
+
+# AI Services (API only - no heavy models)
+openai==1.10.0
+google-generativeai==0.3.2
+
+# Data Processing
+pandas==2.1.4
+numpy==1.26.3
+python-dateutil==2.8.2
+
+# Production server
+gunicorn==21.2.0
+
+# Note: Layer 3 (web scraping with playwright) and sentence-transformers 
+# are DISABLED due to Azure disk space limitations.
+# Use API-only verification layers instead.
